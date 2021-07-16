@@ -10,7 +10,7 @@
   <!-- 폰트어썸 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-  <!-- 테일윈드 -->-->
+  <!-- 테일윈드 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.4/tailwind.min.css">
 
   <!-- 제이쿼리 -->
@@ -26,29 +26,30 @@
 </head>
 
 <body>
-  <header>
-    <div class="container mx-auto">
-      <div class="top-bar">
-        <a href="#" class="top-bar__logo">
-          <i class="fas fa-capsules"></i>
+  <header class="h-14">
+    <div class="container h-full mx-auto bg-red-100">
+      <div class="top-bar flex bg-red-200 h-full">
+        <a href="#" class="top-bar__logo flex items-center">
+          <i class="fas fa-apple-alt"></i>
+          <span></span>
         </a>
-        <ul class="top-bar__logo">
+        <div class="flex-grow"></div>
+        <ul class="top-bar__menu flex">
           <li>
-            <a href="#">1차 메뉴 아이템 1</a>
-            <ul>
-              <li><a href="#">2차 메뉴 아이템 1</a></li>
-              <li><a href="#">2차 메뉴 아이템 2</a></li>
-              <li><a href="#">2차 메뉴 아이템 3</a></li>
-              <li><a href="#">2차 메뉴 아이템 4</a></li>
-            </ul>
+            <a href="#" class="h-full flex items-center">
+              <i class="fas fa-home"></i>
+              <span>HOME</span>
+            </a>
           </li>
           <li>
-            <a href="#">1차 메뉴 아이템 2</a>
+            <a href="#" class="h-full flex items-center">
+              <i class="fas fa-bars"></i>
+              <span>MENU</span>
+            </a>
             <ul>
-              <li><a href="#">2차 메뉴 아이템 1</a></li>
-              <li><a href="#">2차 메뉴 아이템 2</a></li>
-              <li><a href="#">2차 메뉴 아이템 3</a></li>
-              <li><a href="#">2차 메뉴 아이템 4</a></li>
+              <li><a href="#">ABOUT ME</a></li>
+              <li><a href="#">PORTFOLIO</a></li>
+              <li><a href="#">CONTACT</a></li>
             </ul>
           </li>
         </ul>
