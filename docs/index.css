@@ -85,3 +85,15 @@ display: block;
 .swiper-button-prev::after {
   color: white;
 }
+
+.swiper-slide-box-1 .swiper-pagination .swiper-pagination-bullet {
+  width:15px;
+  height:15px;
+  opacity:1;
+  background-color:white;
+}
+
+.swiper-slide-box-1 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color:transparent;
+  background-color:skyblue;
+}
