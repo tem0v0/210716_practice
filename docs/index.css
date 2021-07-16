@@ -1,7 +1,8 @@
 /* 탑바 시작 */
 header {
   height: 60px;
-  background-color: pink;
+  background-color: skyblue;
+  color:rgb(40,40,40);
 }
 
 .top-bar__logo {
@@ -20,7 +21,7 @@ header {
 
 .top-bar>ul>li:hover>a {
 background-color: white;
-color:pink;
+color:skyblue;
 }
 
 .top-bar>ul>li>a>span {
@@ -52,7 +53,7 @@ display: block;
 
 .top-bar>ul ul>li:hover>a {
   background: white;
-  color:pink;
+  color:skyblue;
 }
 
 /* 슬라이드 시작 */
