@@ -1,6 +1,7 @@
 /* 탑바 시작 */
 header {
   height: 60px;
+  background-color: pink;
 }
 
 .top-bar__logo {
@@ -8,17 +9,22 @@ header {
   padding: 0 20px;
 }
 
+.top-bar>ul>li {
+  position: relative;
+}
+
 .top-bar>ul>li>a {
   padding: 0 20px;
   font-size: 1.1rem;
 }
 
-.top-bar>ul>li>a>span {
-  margin-left: 5px;
+.top-bar>ul>li:hover>a {
+background-color: white;
+color:pink;
 }
 
-.top-bar>ul>li {
-  position: relative;
+.top-bar>ul>li>a>span {
+  margin-left: 5px;
 }
 
 .top-bar>ul ul {
@@ -30,14 +36,26 @@ header {
   transform: translateX(-50%);
 }
 
-.top-bar>ul>li:hover>ul {
-  display: block;
-}
-
 .top-bar>ul ul>li {
   text-align: center;
 }
 
+.top-bar>ul>li:hover>ul {
+  display: block;
+}
+
+.top-bar>ul ul>li>a {
+min-width: 100%;
+padding:5px 13px;
+display: block;
+}
+
+.top-bar>ul ul>li:hover>a {
+  background: white;
+  color:pink;
+}
+
+/* 슬라이드 시작 */
 .swiper-slide-box-1 {
   height: 500px;
   margin-top: 110px;
