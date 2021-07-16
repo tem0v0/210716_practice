@@ -5,43 +5,43 @@ header {
 
 .top-bar__logo {
   font-size: 1.5rem;
-  padding:0 20px;
+  padding: 0 20px;
 }
 
-.top-bar > ul > li > a {
-  padding:0 20px;
-  font-size:1.1rem;
+.top-bar>ul>li>a {
+  padding: 0 20px;
+  font-size: 1.1rem;
 }
 
-.top-bar > ul > li > a > span {
-  margin-left:5px;
+.top-bar>ul>li>a>span {
+  margin-left: 5px;
 }
 
-.top-bar > ul > li {
-  position:relative;
+.top-bar>ul>li {
+  position: relative;
 }
 
-.top-bar > ul ul {
-  display:none;
-  position:absolute;
+.top-bar>ul ul {
+  display: none;
+  position: absolute;
   z-index: 5;
-  top:60px;
-  left:50%;
+  top: 60px;
+  left: 50%;
   transform: translateX(-50%);
 }
 
-.top-bar > ul > li:hover > ul {
+.top-bar>ul>li:hover>ul {
   display: block;
 }
 
-.top-bar > ul ul > li {
- text-align: center;
+.top-bar>ul ul>li {
+  text-align: center;
 }
 
 .swiper-slide-box-1 {
-  height:500px;
-  margin-top:110px;
-  z-index:-1;
+  height: 500px;
+  margin-top: 110px;
+  z-index: -1;
 }
 
 .swiper-container {
@@ -63,6 +63,6 @@ header {
 }
 
 .swiper-button-next::after,
-.swiper-button-prev::after{
-  color:white;
+.swiper-button-prev::after {
+  color: white;
 }
