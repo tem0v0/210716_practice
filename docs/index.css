@@ -59,7 +59,7 @@ display: block;
 /* 슬라이드 시작 */
 .swiper-slide-box-1 {
   height: 500px;
-  margin-top: 110px;
+  margin-top: 50px;
   z-index: -1;
 }
 
